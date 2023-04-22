@@ -1,14 +1,77 @@
 .App {
- display: flex;
- justify-content: center;
-
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 45) ;
 }
-.max {
- color: red;
+
+.Counter {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 40, 45);
+    width: 340px;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid mediumturquoise;
+    border-radius: 10px;
 }
 
-/*display: flex;*/
-/*flex-direction: row;*/
-/*justify-content: center;*/
-/*margin-top: 30px;*/
 
+.Count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(40, 40, 45);
+    height: 80px;
+    width: 300px;
+    margin-block: 5px;
+    border: 2px solid mediumturquoise;
+    border-radius: 10px;
+}
+
+.Buttons button {
+    height: 60%;
+    width: 40%;
+    background-color:mediumturquoise;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.srtandartCountSize {
+    display: flex;
+    background-color: mediumturquoise;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 300px;
+    color: black;
+    font-size: 4em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.maxCountSize {
+    display: flex;
+    background-color: mediumturquoise;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 300px;
+    color: red;
+    font-size: 4em;
+    font-weight: bold;
+    border-radius: 10px;
+}

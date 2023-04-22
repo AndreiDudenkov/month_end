@@ -10,9 +10,6 @@ return (
    <Counter
    maxvalue={5}
    startvalue={0}/>
-     <Counter
-   maxvalue={10}
-   startvalue={0}/>
 
  </div>
   );

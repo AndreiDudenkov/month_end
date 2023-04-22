@@ -7,7 +7,7 @@ type CountType = {
 
 export const Count:React.FC<CountType> = ({count,maxvalue}) => {
     return (
-        <div className={count === maxvalue?"max":''}>{count}</div>
+        <div className={count === maxvalue?"maxCountSize":'srtandartCountSize'}>{count}</div>
     );
 }
 

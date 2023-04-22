@@ -25,12 +25,13 @@ export const Counter: React.FC<CounterType> = ({maxvalue, startvalue}) => {
     const disableInc = count >= maxvalue
     const disableReset = count <= startvalue
 
-    return (<div>
+    return (<div className={'Counter'}>
+            <div className={'Count'}>
             <Count
                 count={count}
                 maxvalue={maxvalue}/>
-
-            <div >
+            </div>
+            <div  className={'Buttons'}>
                 <SuperButton name={'inc'} callback={incHandler} disabled={disableInc}/>
                 <SuperButton name={'reset'} callback={resetHandler} disabled={disableReset}/>
             </div>
